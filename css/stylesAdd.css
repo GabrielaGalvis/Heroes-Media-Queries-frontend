@@ -166,3 +166,23 @@ footer {
     height: 61px;
     padding-top: 23px;
 }
+
+input:focus {
+    background-color: aquamarine;
+}
+
+textarea:focus {
+    background-color: aquamarine;
+}
+
+select:focus {
+    background-color: aquamarine;
+}
+
+input[type="radio"]:checked {
+    box-shadow: 0 0 0 1px yellow;
+}
+
+input[type="checkbox"]:checked {
+    box-shadow: 0 0 0 2px yellow;
+}
